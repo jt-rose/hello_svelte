@@ -1,5 +1,6 @@
 <script>
     import Clicker from "../components/clicker.svelte"
+    import Counter from "../components/counter.svelte";
     //import Cats from "../components/cats.svelte"
     import ControlledCats from "../components/controlled-cats.svelte"
     let name = "Jeff"
@@ -9,3 +10,4 @@
 <p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
 <Clicker />
 <ControlledCats />
+<Counter />
